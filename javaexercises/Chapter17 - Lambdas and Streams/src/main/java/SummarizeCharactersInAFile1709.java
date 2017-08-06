@@ -10,7 +10,7 @@ import java.util.TreeMap;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class SummarizeCharactersInAFile {
+public class SummarizeCharactersInAFile1709 {
    public static void main(String[] args) throws IOException {
       // regex that matches one or more consecutive whitespace characters
       Pattern pattern = Pattern.compile("\\s+");
