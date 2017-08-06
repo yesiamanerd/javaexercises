@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>How To Program Java 8 - Deitel</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: grey;
+        }
+
+        form {
+            background-color: lightgrey;
+            color: black;
+            width: 600px;
+            padding: 15px;
+            margin-bottom: 20px;
+
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        legend {
+            font-size:110%;
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+<h1>How To Program Java 8 - Deitel</h1>
+<h2>Notes for Chapter 17 - Lambdas and Streams</h2>
+
+<form>
+    <fieldset>
+        <legend>The six basic generic functional interfaces in package java.util.function.</legend>
+        <table>
+            <tr>
+                <th>Interface</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>BinaryOperator&#60;T&#62;</td>
+                <td>Contains method 'apply' that takes two T arguments, performs an operation
+                    on them (such as a calculation) and returns a value of type T.</td>
+            </tr>
+            <tr>
+                <td>Consumer&#60;T&#62;</td>
+                <td>Contains method 'accept' that takes a T argument and returns void. Performs
+                    a task with it’s T argument, such as outputting the object, invoking a method
+                    of the object, etc.</td>
+            </tr>
+            <tr>
+                <td>Function&#60;T&#62;</td>
+                <td>Contains method 'apply' that takes a T argument and returns a value of type
+                    R. Calls a method on the T argument and returns that method’s result.</td>
+            </tr>
+            <tr>
+                <td>Predicate&#60;T&#62;</td>
+                <td>Contains method 'test' that takes a T argument and returns a boolean. Tests
+                    whether the T argument satisfies a condition.</td>
+            </tr>
+            <tr>
+                <td>Supplier&#60;T&#62;</td>
+                <td>Contains method 'get' that takes no arguments and produces a value of type
+                    T. Often used to create a collection object in which a stream operation’s
+                    results are placed.</td>
+            </tr>
+            <tr>
+                <td>UnaryOperator&#60;T&#62;</td>
+                <td>Contains method 'get' that takes no arguments and returns a value of type T.</td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Common intermediate Stream operations</legend>
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>filter</td>
+                <td>Results in a stream containing only the elements that satisfy a condition.</td>
+            </tr>
+            <tr>
+                <td>distinct</td>
+                <td>Results in a stream containing only the unique elements.</td>
+            </tr>
+            <tr>
+                <td>limit</td>
+                <td>Results in a stream with the specified number of elements from the beginning
+                    of the original stream.</td>
+            </tr>
+            <tr>
+                <td>map</td>
+                <td>Results in a stream in which each element of the original stream is mapped to
+                    a new value (possibly of a different type)—e.g., mapping numeric values to
+                    the squares of the numeric values. The new stream has the same number of
+                    elements as the original stream.</td>
+            </tr>
+            <tr>
+                <td>sorted</td>
+                <td>Results in a stream in which the elements are in sorted order. The new stream
+                    has the same number of elements as the original stream.</td>
+            </tr>
+
+        </table>
+    </fieldset>
+</form>
+
+
+
+
+<form>
+    <fieldset>
+        <legend>Terminal Stream Operations</legend>
+        <table>
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>forEach</td>
+                <td>Performs processing on every element in a stream (e.g., display each element).</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Reduction operations</b>—Take all values in the stream and return a single value</td>
+            </tr>
+            <tr>
+                <td>average</td>
+                <td>Calculates the average of the elements in a numeric stream.</td>
+            </tr>
+            <tr>
+                <td>count</td>
+                <td>Returns the number of elements in the stream.</td>
+            </tr>
+            <tr>
+                <td>max</td>
+                <td>Locates the largest value in a numeric stream.</td>
+            </tr>
+            <tr>
+                <td>min</td>
+                <td>Locates the smallest value in a numeric stream.</td>
+            </tr>
+            <tr>
+                <td>reduce</td>
+                <td>Reduces the elements of a collection to a single value using an associative accumulation
+                    function (e.g., a lambda that adds two elements).</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Mutable reduction operations</b>—Create a container (such as a collection or StringBuilder)</td>
+            </tr>
+            <tr>
+                <td>collect</td>
+                <td>Creates a new collection of elements containing the results of the stream’s prior
+                    operations.</td>
+            </tr>
+            <tr>
+                <td>toArray</td>
+                <td>Creates an array containing the results of the stream’s prior operations.</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Search operations</b></td>
+            </tr>
+            <tr>
+                <td>findFirst</td>
+                <td>Finds the first stream element based on the prior intermediate operations; immediately
+                    terminates processing of the stream pipeline once such an element is found.</td>
+            </tr>
+            <tr>
+                <td>findAny</td>
+                <td>Finds any stream element based on the prior intermediate operations; immediately
+                    terminates processing of the stream pipeline once such an element is found.</td>
+            </tr>
+            <tr>
+                <td>anyMatch</td>
+                <td>Determines whether any stream elements match a specified condition; immediately
+                    terminates processing of the stream pipeline if an element matches.</td>
+            </tr>
+            <tr>
+                <td>allMatch</td>
+                <td>Determines whether all of the elements in the stream match a specified condition.</td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<form>
+    <fieldset>
+        <legend>Complete list of IntStream methods</legend>
+        <p><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html" target="_blank">https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html</a> </p>
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+        <legend>Complete list of Collectors methods</legend>
+        <p><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html" target="_blank">https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html</a> </p>
+    </fieldset>
+</form>
+
+
+<form>
+    <fieldset>
+        <legend>Types of Method References</legend>
+        <table>
+            <tr>
+                <th>Lambda</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>String::toUpperCase</td>
+                <td>Method reference for an instance method of a class. Creates a oneparameter
+                    lambda that invokes the instance method on the lambda’s
+                    argument and returns the method’s result.</td>
+            </tr>
+            <tr>
+                <td>System.out::println</td>
+                <td>Method reference for an instance method that should be called on a specific
+                    object. Creates a one-parameter lambda that invokes the instance
+                    method on the specified object—passing the lambda’s argument to the
+                    instance method—and returns the method’s result.</td>
+            </tr>
+            <tr>
+                <td>Math::sqrt</td>
+                <td>Method reference for a static method of a class. Creates a one-parameter
+                    lambda in which the lambda’s argument is passed to the specified a
+                    static method and the lambda returns the method’s result.</td>
+            </tr>
+            <tr>
+                <td>TreeMap::new</td>
+                <td>Constructor reference. Creates a lambda that invokes the no-argument
+                    constructor of the specified class to create and initialize a new object of
+                    that class.</td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>
