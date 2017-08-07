@@ -17,7 +17,8 @@ public class SummarizeCharactersInAFile1709 {
 
       // count occurrences of each letter in a Stream<String> sorted by word
       Map<String, Long> wordCounts =
-         Files.lines(Paths.get("D:///Java/deitel/javaexercises/Chapter17 - Lambdas and Streams/src/main/resources/TextFile.txt"))
+         //Files.lines(Paths.get("D:///Java/deitel/javaexercises/Chapter17 - Lambdas and Streams/src/main/resources/TextFile.txt"))
+         Files.lines(Paths.get("/home/geoffrey/Java/javaexercises/javaexercises/Chapter17 - Lambdas and Streams/src/main/resources/TextFile.txt"))
             .map(line -> line.replaceAll("(?!'')\\p{P}", ""))
             .map(line -> line.replaceAll(".(?!$)", "$0 "))
             .flatMap(line -> pattern.splitAsStream(line))

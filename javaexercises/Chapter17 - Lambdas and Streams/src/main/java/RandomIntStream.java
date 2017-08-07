@@ -4,6 +4,8 @@ import java.util.stream.Collectors;
 
 public class RandomIntStream {
    public static void main(String[] args){
+      long startTime = System.currentTimeMillis();
+
       SecureRandom random = new SecureRandom();
 
       // roll a die 6,000,000 times and summarize the results
@@ -13,5 +15,9 @@ public class RandomIntStream {
          .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
          .forEach((face, frequency) ->
             System.out.printf("%-6d%d%n", face, frequency));
+
+      System.out.printf(
+              "%nRunning time in milliseconds: %d",
+                      (System.currentTimeMillis() - startTime));
    }
 }
