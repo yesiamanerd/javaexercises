@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter07 - Arrays and ArrayLists/Chapter07 - Arrays and ArrayLists.iml" filepath="$PROJECT_DIR$/Chapter07 - Arrays and ArrayLists/Chapter07 - Arrays and ArrayLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises07/Exercises07.iml" filepath="$PROJECT_DIR$/Exercises07/Exercises07.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" filepath="$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaexercises.iml" filepath="$PROJECT_DIR$/javaexercises.iml" />
     </modules>

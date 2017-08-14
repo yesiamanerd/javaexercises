@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Chapter07 - Arrays and ArrayLists" />
         <module name="chapter17" />
+        <module name="Exercises07" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Chapter07 - Arrays and ArrayLists" target="1.5" />
       <module name="chapter17" target="1.8" />
+      <module name="Exercises07" target="1.5" />
       <module name="javaexercises" target="1.5" />
     </bytecodeTargetLevel>
   </component>
