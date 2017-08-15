@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be8b181-ba9f-48b1-aaa0-2a31cbc33693" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0717_DiceRolling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0718_GameOfCraps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,13 +55,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex_0717_DiceRolling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ex_0717_DiceRolling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercises07/src/main/java/Ex_0717_DiceRolling.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="e#0#1354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ex_0718_GameOfCraps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercises07/src/main/java/Ex_0718_GameOfCraps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#3504#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +176,7 @@
         <option value="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0715_CommandLineArguments.java" />
         <option value="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0716_EnhancedForStatement.java" />
         <option value="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0717_DiceRolling.java" />
+        <option value="$PROJECT_DIR$/Exercises07/src/main/java/Ex_0718_GameOfCraps.java" />
       </list>
     </option>
   </component>
@@ -602,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502802176528</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" commit">
+      <created>1502803364563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502803364566</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -677,18 +697,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter17 - Lambdas and Streams/src/main/java/ArraysAndStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter17 - Lambdas and Streams/src/main/java/ArraysAndStreams2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1089,6 +1102,16 @@
           <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="e#0#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercises07/src/main/java/Ex_0718_GameOfCraps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#3504#0" expanded="true" />
           </folding>
         </state>
       </provider>
