@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Chapter 6 - Methods - A Deeper Look" />
+        <module name="Chapter03 - Instroduction to Classes" />
+        <module name="Chapter04 - Control Statements 1" />
+        <module name="Chapter05 - Control Statements 2" />
         <module name="Chapter07 - Arrays and ArrayLists" />
+        <module name="chapter15" />
         <module name="chapter17" />
         <module name="Exercises07" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Chapter 6 - Methods - A Deeper Look" target="1.5" />
+      <module name="Chapter03 - Instroduction to Classes" target="1.5" />
+      <module name="Chapter04 - Control Statements 1" target="1.5" />
+      <module name="Chapter05 - Control Statements 2" target="1.7" />
       <module name="Chapter07 - Arrays and ArrayLists" target="1.5" />
+      <module name="chapter15" target="7" />
       <module name="chapter17" target="1.8" />
       <module name="Exercises07" target="1.5" />
       <module name="javaexercises" target="1.5" />
+      <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

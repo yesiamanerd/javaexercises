@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter 6 - Methods - A Deeper Look/Chapter 6 - Methods - A Deeper Look.iml" filepath="$PROJECT_DIR$/Chapter 6 - Methods - A Deeper Look/Chapter 6 - Methods - A Deeper Look.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03 - Instroduction to Classes/Chapter03 - Instroduction to Classes.iml" filepath="$PROJECT_DIR$/Chapter03 - Instroduction to Classes/Chapter03 - Instroduction to Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter04 - Control Statements 1/Chapter04 - Control Statements 1.iml" filepath="$PROJECT_DIR$/Chapter04 - Control Statements 1/Chapter04 - Control Statements 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter05 - Control Statements 2/Chapter05 - Control Statements 2.iml" filepath="$PROJECT_DIR$/Chapter05 - Control Statements 2/Chapter05 - Control Statements 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter07 - Arrays and ArrayLists/Chapter07 - Arrays and ArrayLists.iml" filepath="$PROJECT_DIR$/Chapter07 - Arrays and ArrayLists/Chapter07 - Arrays and ArrayLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercises07/Exercises07.iml" filepath="$PROJECT_DIR$/Exercises07/Exercises07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter 8  - Classes and Objects - A Deeper Look/chapter 8  - Classes and Objects - A Deeper Look.iml" filepath="$PROJECT_DIR$/chapter 8  - Classes and Objects - A Deeper Look/chapter 8  - Classes and Objects - A Deeper Look.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter15/chapter15.iml" filepath="$PROJECT_DIR$/chapter15/chapter15.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" filepath="$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter19/chapter19.iml" filepath="$PROJECT_DIR$/chapter19/chapter19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter20/chapter20.iml" filepath="$PROJECT_DIR$/chapter20/chapter20.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaexercises.iml" filepath="$PROJECT_DIR$/javaexercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
