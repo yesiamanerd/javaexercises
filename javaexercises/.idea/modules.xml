@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" filepath="$PROJECT_DIR$/Chapter17 - Lambdas and Streams/chapter17.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter19/chapter19.iml" filepath="$PROJECT_DIR$/chapter19/chapter19.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter20/chapter20.iml" filepath="$PROJECT_DIR$/chapter20/chapter20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter21/chapter21.iml" filepath="$PROJECT_DIR$/chapter21/chapter21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter23/chapter23.iml" filepath="$PROJECT_DIR$/chapter23/chapter23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaexercises.iml" filepath="$PROJECT_DIR$/javaexercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
